@@ -26,7 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "common_inc.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,7 +102,6 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
   /* USER CODE END RTOS_EVENTS */
-
 }
 
 /* USER CODE BEGIN Header_StartDefaultTask */
@@ -115,13 +114,15 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
+  int  temp = 20;
   /* Infinite loop */
   for(;;)
   {
-      //Invoke cpp-version main()
-      Main();
-
-      vTaskDelete(defaultTaskHandle);
+      HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+      HAL_Delay(200);
+      HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+      HAL_Delay(200);
+      printf("%d\n", temp);
   }
   /* USER CODE END StartDefaultTask */
 }

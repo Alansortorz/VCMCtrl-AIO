@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/startup/startup_stm32f405xx.s
+

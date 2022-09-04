@@ -53,10 +53,10 @@ RM = "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO
+CMAKE_SOURCE_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug
+CMAKE_BINARY_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/CyberVCM_AIO.elf.dir/clean
 CMakeFiles/CyberVCM_AIO.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target CyberVCM_AIO.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55 "Built target CyberVCM_AIO.elf"
 .PHONY : CMakeFiles/CyberVCM_AIO.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CyberVCM_AIO.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 55
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/CyberVCM_AIO.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/CyberVCM_AIO.elf.dir/rule
 
 # Convenience name for target.

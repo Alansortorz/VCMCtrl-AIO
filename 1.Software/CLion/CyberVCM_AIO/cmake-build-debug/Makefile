@@ -56,10 +56,10 @@ RM = "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO
+CMAKE_SOURCE_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug
+CMAKE_BINARY_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,174 @@ CyberVCM_AIO.elf: cmake_check_build_system
 CyberVCM_AIO.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/build
 .PHONY : CyberVCM_AIO.elf/fast
+
+Control/AM26C32.obj: Control/AM26C32.c.obj
+.PHONY : Control/AM26C32.obj
+
+# target to build an object file
+Control/AM26C32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj
+.PHONY : Control/AM26C32.c.obj
+
+Control/AM26C32.i: Control/AM26C32.c.i
+.PHONY : Control/AM26C32.i
+
+# target to preprocess a source file
+Control/AM26C32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.i
+.PHONY : Control/AM26C32.c.i
+
+Control/AM26C32.s: Control/AM26C32.c.s
+.PHONY : Control/AM26C32.s
+
+# target to generate assembly for a file
+Control/AM26C32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.s
+.PHONY : Control/AM26C32.c.s
+
+Control/Filter.obj: Control/Filter.c.obj
+.PHONY : Control/Filter.obj
+
+# target to build an object file
+Control/Filter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj
+.PHONY : Control/Filter.c.obj
+
+Control/Filter.i: Control/Filter.c.i
+.PHONY : Control/Filter.i
+
+# target to preprocess a source file
+Control/Filter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.i
+.PHONY : Control/Filter.c.i
+
+Control/Filter.s: Control/Filter.c.s
+.PHONY : Control/Filter.s
+
+# target to generate assembly for a file
+Control/Filter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.s
+.PHONY : Control/Filter.c.s
+
+Control/MotorADC.obj: Control/MotorADC.c.obj
+.PHONY : Control/MotorADC.obj
+
+# target to build an object file
+Control/MotorADC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj
+.PHONY : Control/MotorADC.c.obj
+
+Control/MotorADC.i: Control/MotorADC.c.i
+.PHONY : Control/MotorADC.i
+
+# target to preprocess a source file
+Control/MotorADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.i
+.PHONY : Control/MotorADC.c.i
+
+Control/MotorADC.s: Control/MotorADC.c.s
+.PHONY : Control/MotorADC.s
+
+# target to generate assembly for a file
+Control/MotorADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.s
+.PHONY : Control/MotorADC.c.s
+
+Control/PositionPID.obj: Control/PositionPID.c.obj
+.PHONY : Control/PositionPID.obj
+
+# target to build an object file
+Control/PositionPID.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj
+.PHONY : Control/PositionPID.c.obj
+
+Control/PositionPID.i: Control/PositionPID.c.i
+.PHONY : Control/PositionPID.i
+
+# target to preprocess a source file
+Control/PositionPID.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.i
+.PHONY : Control/PositionPID.c.i
+
+Control/PositionPID.s: Control/PositionPID.c.s
+.PHONY : Control/PositionPID.s
+
+# target to generate assembly for a file
+Control/PositionPID.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.s
+.PHONY : Control/PositionPID.c.s
+
+Control/SpeedPID.obj: Control/SpeedPID.c.obj
+.PHONY : Control/SpeedPID.obj
+
+# target to build an object file
+Control/SpeedPID.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj
+.PHONY : Control/SpeedPID.c.obj
+
+Control/SpeedPID.i: Control/SpeedPID.c.i
+.PHONY : Control/SpeedPID.i
+
+# target to preprocess a source file
+Control/SpeedPID.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.i
+.PHONY : Control/SpeedPID.c.i
+
+Control/SpeedPID.s: Control/SpeedPID.c.s
+.PHONY : Control/SpeedPID.s
+
+# target to generate assembly for a file
+Control/SpeedPID.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.s
+.PHONY : Control/SpeedPID.c.s
+
+Control/TOF200F.obj: Control/TOF200F.c.obj
+.PHONY : Control/TOF200F.obj
+
+# target to build an object file
+Control/TOF200F.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj
+.PHONY : Control/TOF200F.c.obj
+
+Control/TOF200F.i: Control/TOF200F.c.i
+.PHONY : Control/TOF200F.i
+
+# target to preprocess a source file
+Control/TOF200F.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.i
+.PHONY : Control/TOF200F.c.i
+
+Control/TOF200F.s: Control/TOF200F.c.s
+.PHONY : Control/TOF200F.s
+
+# target to generate assembly for a file
+Control/TOF200F.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.s
+.PHONY : Control/TOF200F.c.s
+
+Control/VCMControl.obj: Control/VCMControl.c.obj
+.PHONY : Control/VCMControl.obj
+
+# target to build an object file
+Control/VCMControl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj
+.PHONY : Control/VCMControl.c.obj
+
+Control/VCMControl.i: Control/VCMControl.c.i
+.PHONY : Control/VCMControl.i
+
+# target to preprocess a source file
+Control/VCMControl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.i
+.PHONY : Control/VCMControl.c.i
+
+Control/VCMControl.s: Control/VCMControl.c.s
+.PHONY : Control/VCMControl.s
+
+# target to generate assembly for a file
+Control/VCMControl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.s
+.PHONY : Control/VCMControl.c.s
 
 Core/Src/adc.obj: Core/Src/adc.c.obj
 .PHONY : Core/Src/adc.obj
@@ -463,6 +631,30 @@ Core/Src/usart.s: Core/Src/usart.c.s
 Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
+
+Display/oled.obj: Display/oled.c.obj
+.PHONY : Display/oled.obj
+
+# target to build an object file
+Display/oled.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj
+.PHONY : Display/oled.c.obj
+
+Display/oled.i: Display/oled.c.i
+.PHONY : Display/oled.i
+
+# target to preprocess a source file
+Display/oled.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.i
+.PHONY : Display/oled.c.i
+
+Display/oled.s: Display/oled.c.s
+.PHONY : Display/oled.s
+
+# target to generate assembly for a file
+Display/oled.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.s
+.PHONY : Display/oled.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -1208,30 +1400,6 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
-UserApp/main.obj: UserApp/main.cpp.obj
-.PHONY : UserApp/main.obj
-
-# target to build an object file
-UserApp/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj
-.PHONY : UserApp/main.cpp.obj
-
-UserApp/main.i: UserApp/main.cpp.i
-.PHONY : UserApp/main.i
-
-# target to preprocess a source file
-UserApp/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.i
-.PHONY : UserApp/main.cpp.i
-
-UserApp/main.s: UserApp/main.cpp.s
-.PHONY : UserApp/main.s
-
-# target to generate assembly for a file
-UserApp/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.s
-.PHONY : UserApp/main.cpp.s
-
 startup/startup_stm32f405xx.obj: startup/startup_stm32f405xx.s.obj
 .PHONY : startup/startup_stm32f405xx.obj
 
@@ -1249,6 +1417,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CyberVCM_AIO.elf
+	@echo ... Control/AM26C32.obj
+	@echo ... Control/AM26C32.i
+	@echo ... Control/AM26C32.s
+	@echo ... Control/Filter.obj
+	@echo ... Control/Filter.i
+	@echo ... Control/Filter.s
+	@echo ... Control/MotorADC.obj
+	@echo ... Control/MotorADC.i
+	@echo ... Control/MotorADC.s
+	@echo ... Control/PositionPID.obj
+	@echo ... Control/PositionPID.i
+	@echo ... Control/PositionPID.s
+	@echo ... Control/SpeedPID.obj
+	@echo ... Control/SpeedPID.i
+	@echo ... Control/SpeedPID.s
+	@echo ... Control/TOF200F.obj
+	@echo ... Control/TOF200F.i
+	@echo ... Control/TOF200F.s
+	@echo ... Control/VCMControl.obj
+	@echo ... Control/VCMControl.i
+	@echo ... Control/VCMControl.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
@@ -1291,6 +1480,9 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
+	@echo ... Display/oled.obj
+	@echo ... Display/oled.i
+	@echo ... Display/oled.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1384,9 +1576,6 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
-	@echo ... UserApp/main.obj
-	@echo ... UserApp/main.i
-	@echo ... UserApp/main.s
 	@echo ... startup/startup_stm32f405xx.obj
 .PHONY : help
 

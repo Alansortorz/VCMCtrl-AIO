@@ -194,6 +194,13 @@ int fgetc(FILE *f)
   HAL_UART_Receive(&huart2, &ch, 1, 0xffff);
   return ch;
 }
+
+void USART_Debug(void)
+{
+	printf("System Initialization...\n");
+	printf("USART Display...\n");
+	printf("Hello World!\n");
+}
 /* USER CODE END 1 */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

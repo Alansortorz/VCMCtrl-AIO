@@ -1,4 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj"
@@ -13,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
@@ -44,7 +52,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-  "CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj"
   "CyberVCM_AIO.elf"
   "CyberVCM_AIO.elf.manifest"
@@ -52,6 +59,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang ASM C CXX)
+foreach(lang ASM C)
   include(CMakeFiles/CyberVCM_AIO.elf.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

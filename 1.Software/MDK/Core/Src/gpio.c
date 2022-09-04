@@ -65,6 +65,39 @@ void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
+/**
+ * @brief LED Twinkle Founction
+ * @parma led_pin | 0 ==> LED1 | 1 ==> LED2 
+ *		  ctime | led twinkle times setting value
+ * @note None
+ * @retval None
+ **/
+void LED_Twinkle(uint8_t led_pin, uint8_t ctime)
+{
+	int cnTimes = 0;
+	HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+	for(cnTimes=0; cnTimes<2*ctime; cnTimes++)
+	{
+		if(0 == led_pin)
+		{
+			HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+			HAL_Delay(100);
+		}
+		else if(1 == led_pin)
+		{
+			HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+			HAL_Delay(100);
+		}
+		else
+		{;}
+	}
+	
+}
+
+
+
+
 
 /* USER CODE END 2 */
 

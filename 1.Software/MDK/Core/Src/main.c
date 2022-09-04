@@ -107,9 +107,23 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  VCMEncoderInit();//光栅尺传感器初始化
+  
+  /** grating position sensor initialization **/
+  VCMEncoderInit();
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+  
+  /** human-machine interaction **/
+  //<1> OLED Display
   OLED_Init();
+  OLED_Windows_Style1();
+  
+  //<2> LED Display
+  LED_Twinkle(0, 5);
+  LED_Twinkle(1, 5);
+  
+  //<3> USART Display
+  USART_Debug();
+  
   
   /* USER CODE END 2 */
 

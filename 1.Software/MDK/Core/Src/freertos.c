@@ -124,11 +124,11 @@ void StartDefaultTask(void *argument)
   OLED_Windows_Style1();
   for(;;)
   {
-	  temp = VCMEncoderGetPosition();
-	  printf("%f\n", temp);
-	  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+	  //temp = VCMEncoderGetPosition();
+	  //printf("%f\n", temp);
+	  //HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
 	  osDelay(100);
-	  HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+	  //HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
   }
   /* USER CODE END StartDefaultTask */
 }

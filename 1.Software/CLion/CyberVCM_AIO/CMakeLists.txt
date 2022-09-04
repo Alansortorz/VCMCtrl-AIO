@@ -57,14 +57,8 @@ include_directories(Core/Inc
         Middlewares/Third_Party/FreeRTOS/Source/include
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-        UserApp
-        UserApp/protocols
-        Ctrl/Sensor/Encoder
-        Ctrl/Signal
-        Ctrl/Utils
-        Platform/Sensor
-        Platform/Signal
-        Platform/Utils
+        Display
+        Control
         )
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F405xx)
@@ -73,11 +67,8 @@ file(GLOB_RECURSE SOURCES "startup/*.*"
         "Middlewares/*.*"
         "Drivers/*.*"
         "Core/*.*"
-        "UserApp/*.*"
-        "UserApp/protocols/*.*"
-        "Ctrl/Sensor/Encoder/*.*"
-        "Ctrl/Signal/*.*"
-        "Ctrl/Utils/*.*"
+        "Display/*.*"
+        "Control/*.*"
         )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F405RGTx_FLASH.ld)

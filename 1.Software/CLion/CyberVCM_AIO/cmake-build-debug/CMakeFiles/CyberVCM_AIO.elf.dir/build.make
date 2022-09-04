@@ -52,10 +52,10 @@ RM = "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO
+CMAKE_SOURCE_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug
+CMAKE_BINARY_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CyberVCM_AIO.elf.dir/depend.make
@@ -65,619 +65,717 @@ include CMakeFiles/CyberVCM_AIO.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj: ../Control/AM26C32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\AM26C32.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\AM26C32.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\AM26C32.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\AM26C32.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\AM26C32.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\AM26C32.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj: ../Control/Filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\Filter.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\Filter.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\Filter.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\Filter.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\Filter.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\Filter.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj: ../Control/MotorADC.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\MotorADC.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\MotorADC.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\MotorADC.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\MotorADC.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\MotorADC.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\MotorADC.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj: ../Control/PositionPID.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\PositionPID.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\PositionPID.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\PositionPID.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\PositionPID.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\PositionPID.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\PositionPID.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj: ../Control/SpeedPID.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\SpeedPID.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\SpeedPID.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\SpeedPID.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\SpeedPID.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\SpeedPID.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\SpeedPID.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj: ../Control/TOF200F.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\TOF200F.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\TOF200F.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\TOF200F.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\TOF200F.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\TOF200F.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\TOF200F.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj: ../Control/VCMControl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\VCMControl.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\VCMControl.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\VCMControl.c > CMakeFiles\CyberVCM_AIO.elf.dir\Control\VCMControl.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Control\VCMControl.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Control\VCMControl.c.s
+
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\adc.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\adc.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\dma.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\dma.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\dma.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\dma.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\dma.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\dma.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\freertos.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\freertos.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\freertos.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\freertos.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\freertos.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\freertos.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\gpio.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\gpio.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\gpio.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/gpio.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\gpio.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\gpio.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\i2c.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\i2c.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\i2c.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\i2c.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\i2c.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\i2c.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\main.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\main.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\main.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\main.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\main.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.obj: ../Core/Src/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\retarget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\retarget.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\retarget.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\retarget.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/retarget.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\retarget.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\retarget.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\retarget.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\stm32f4xx_it.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\syscalls.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\syscalls.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\syscalls.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\syscalls.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\syscalls.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\system_stm32f4xx.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\tim.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\usart.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\usart.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\usart.c > CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Core\Src\usart.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Core\Src\usart.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Core\Src\usart.c.s
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
+CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj: ../Display/oled.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Display\oled.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Display\oled.c
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.i"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Display\oled.c > CMakeFiles\CyberVCM_AIO.elf.dir\Display\oled.c.i
+
+CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.s"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Display\oled.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Display\oled.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
-
-CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
-CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj: ../UserApp/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\UserApp\main.cpp.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\UserApp\main.cpp
-
-CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\UserApp\main.cpp > CMakeFiles\CyberVCM_AIO.elf.dir\UserApp\main.cpp.i
-
-CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\UserApp\main.cpp -o CMakeFiles\CyberVCM_AIO.elf.dir\UserApp\main.cpp.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\CyberVCM_AIO.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj: CMakeFiles/CyberVCM_AIO.elf.dir/flags.make
 CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj: ../startup/startup_stm32f405xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.obj -c E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj"
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.obj -c E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s
 
 CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.i"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s > CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.i
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s > CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.i
 
 CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.s"
-	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s -o CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.s
+	D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\startup\startup_stm32f405xx.s -o CMakeFiles\CyberVCM_AIO.elf.dir\startup\startup_stm32f405xx.s.s
 
 # Object files for target CyberVCM_AIO.elf
 CyberVCM_AIO_elf_OBJECTS = \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj" \
@@ -692,6 +790,7 @@ CyberVCM_AIO_elf_OBJECTS = \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" \
@@ -723,12 +822,18 @@ CyberVCM_AIO_elf_OBJECTS = \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
-"CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj" \
 "CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj"
 
 # External object files for target CyberVCM_AIO.elf
 CyberVCM_AIO_elf_EXTERNAL_OBJECTS =
 
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/AM26C32.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/Filter.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/MotorADC.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/PositionPID.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/adc.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj
@@ -743,6 +848,7 @@ CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -774,16 +880,16 @@ CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRT
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/UserApp/main.cpp.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/startup/startup_stm32f405xx.s.obj
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/build.make
+CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/objects1.rsp
 CyberVCM_AIO.elf: CMakeFiles/CyberVCM_AIO.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable CyberVCM_AIO.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking C executable CyberVCM_AIO.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CyberVCM_AIO.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.bin"
-	arm-none-eabi-objcopy -Oihex E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.elf E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.hex
-	arm-none-eabi-objcopy -Obinary E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.elf E:/Other/STM32Project/CyberVCMAIO/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.bin"
+	arm-none-eabi-objcopy -Oihex E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.elf E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.hex
+	arm-none-eabi-objcopy -Obinary E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.elf E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CyberVCM_AIO.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/CyberVCM_AIO.elf.dir/build: CyberVCM_AIO.elf
@@ -794,6 +900,6 @@ CMakeFiles/CyberVCM_AIO.elf.dir/clean:
 .PHONY : CMakeFiles/CyberVCM_AIO.elf.dir/clean
 
 CMakeFiles/CyberVCM_AIO.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug E:\Other\STM32Project\CyberVCMAIO\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles\CyberVCM_AIO.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles\CyberVCM_AIO.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CyberVCM_AIO.elf.dir/depend
 

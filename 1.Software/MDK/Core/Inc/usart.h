@@ -44,6 +44,7 @@ void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN Prototypes */
 int fputc(int ch, FILE *f);
 int fgetc(FILE *f);
+void USART_Debug(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus
