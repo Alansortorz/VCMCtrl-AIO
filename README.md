@@ -7,11 +7,11 @@
 
 ### 1.1  接口说明 
 
-![硬件接口文件](5.Images/%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3%E6%96%87%E4%BB%B6.png)
+![HardwareInterface](5.Images/HardwareInterface.png)
 
 ### 1.2  引脚配置图
 
-![引脚配置图](5.Images/%E5%BC%95%E8%84%9A%E9%85%8D%E7%BD%AE%E5%9B%BE.png)
+![Pinpoint](5.Images/Pinpoint.png)
 
 ### 1.3  传感器说明
 
