@@ -1,7 +1,7 @@
 # VCMCtrl-AIO - 直线电机的一体化闭环驱动
 ![image-20220904195708891](5.Images/VCM.png)
 
-> 这里我设计的是一个音圈电机（Voice Coil Motor）的一体化闭环驱动。
+> 一个音圈电机（Voice Coil Motor）的一体化闭环驱动。
 
 ## 1  驱动硬件说明
 
