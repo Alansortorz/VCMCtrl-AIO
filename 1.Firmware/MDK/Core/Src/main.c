@@ -122,7 +122,13 @@ int main(void)
   LED_Twinkle(1, 5);
   
   //<3> USART Display
+  /* =====>> */
   USART_Debug();
+  /* <===== */
+  //pass
+  
+  //<4> CAN Display
+  
   
   
   /* USER CODE END 2 */
