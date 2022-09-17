@@ -4,11 +4,16 @@
 #include "stm32f4xx_hal.h"
 #include "stdbool.h"
 
+
 typedef struct{
 	uint16_t Encoder_Counts;
 	uint16_t ADC_Nums;
 	uint16_t TOF_Counts;
+	short Accdata[3];
+	short Gyrodata[3];
+	float Temp;
 }Sensor_Original_Data;	
+
 
 /**
  * @brief Main Parameters Used in The Pragram

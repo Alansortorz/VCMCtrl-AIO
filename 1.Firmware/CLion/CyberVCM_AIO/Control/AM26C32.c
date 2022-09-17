@@ -1,11 +1,9 @@
 #include "AM26C32.h"
 #include "main.h"
-
 #include "tim.h"
 
 
 /* 调试 */
-
 #include "stdio.h"
 #define CNTZERO 10000
 #define ENCODERPLUSE 8000;

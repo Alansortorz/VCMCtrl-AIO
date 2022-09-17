@@ -186,7 +186,151 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* i2cHandle)
 }
 
 /* USER CODE BEGIN 1 */
+static void i2c_Delay(void)
+{
+    uint8_t i;
+    for (i = 0; i < 20; i++);
+}
 
+void i2c_Start(void)
+{
+    I2C_SDA_1();
+    I2C_SCL_1();
+    i2c_Delay();
+    I2C_SDA_0();
+    i2c_Delay();
+    I2C_SCL_0();
+    i2c_Delay();
+}
+
+void i2c_Stop(void)
+{
+    I2C_SDA_0();
+    I2C_SCL_1();
+    i2c_Delay();
+    I2C_SDA_1();
+}
+
+void i2c_SendByte(uint8_t _ucByte)
+{
+    uint8_t i;
+    for (i = 0; i < 8; i++)
+    {
+        if (_ucByte & 0x80)
+        {
+            I2C_SDA_1();
+        }
+        else
+        {
+            I2C_SDA_0();
+        }
+        i2c_Delay();
+        I2C_SCL_1();
+        i2c_Delay();
+        I2C_SCL_0();
+        if (i == 7)
+        {
+            I2C_SDA_1(); 
+        }
+        _ucByte <<= 1;	
+        i2c_Delay();
+    }
+}
+
+uint8_t i2c_ReadByte(uint8_t ack)
+{
+    uint8_t i;
+    uint8_t value;
+
+    value = 0;
+    for (i = 0; i < 8; i++)
+    {
+        value <<= 1;
+        I2C_SCL_1();
+        i2c_Delay();
+        if (I2C_SDA_READ())
+        {
+            value++;
+        }
+        I2C_SCL_0();
+        i2c_Delay();
+    }
+    if(ack==0)
+        i2c_NAck();
+    else
+        i2c_Ack();
+    return value;
+}
+
+uint8_t i2c_WaitAck(void)
+{
+    uint8_t re;
+
+    I2C_SDA_1();	
+    i2c_Delay();
+    I2C_SCL_1();	
+    i2c_Delay();
+    if (I2C_SDA_READ())	
+    {
+        re = 1;
+    }
+    else
+    {
+        re = 0;
+    }
+    I2C_SCL_0();
+    i2c_Delay();
+    return re;
+}
+
+void i2c_Ack(void)
+{
+    I2C_SDA_0();	
+    i2c_Delay();
+    I2C_SCL_1();	
+    i2c_Delay();
+    I2C_SCL_0();
+    i2c_Delay();
+    I2C_SDA_1();	
+}
+
+void i2c_NAck(void)
+{
+    I2C_SDA_1();	
+    i2c_Delay();
+    I2C_SCL_1();	
+    i2c_Delay();
+    I2C_SCL_0();
+    i2c_Delay();
+}
+
+void i2c_GPIO_Config(void){
+    GPIO_InitTypeDef GPIO_InitStructure;
+
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+
+    GPIO_InitStructure.Pin = I2C_SCL_Pin | I2C_SDA_Pin;
+    GPIO_InitStructure.Speed = GPIO_SPEED_FREQ_MEDIUM;
+    GPIO_InitStructure.Mode = GPIO_MODE_OUTPUT_OD;  	
+    HAL_GPIO_Init(GPIO_I2C_Port, &GPIO_InitStructure);
+    i2c_Stop();
+}
+
+uint8_t i2c_CheckDevice(uint8_t _Address)
+{
+    uint8_t ucAck;
+
+    i2c_GPIO_Config();	
+
+    i2c_Start();	
+
+    i2c_SendByte(_Address|I2C_WR);
+    ucAck = i2c_WaitAck();
+
+    i2c_Stop();	
+
+    return ucAck;
+}
 /* USER CODE END 1 */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

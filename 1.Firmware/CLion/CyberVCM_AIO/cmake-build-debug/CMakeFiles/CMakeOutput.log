@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Software/EmbededTools/Drivers/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.07) 10.3.1 20210621 (release)
@@ -33,12 +33,12 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a6c01/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a6c01.dir\build.make CMakeFiles/cmTC_a6c01.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a6c01.dir/CMakeCCompilerABI.c.obj
-D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8e38f/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8e38f.dir\build.make CMakeFiles/cmTC_8e38f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e38f.dir/CMakeCCompilerABI.c.obj
+D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe
 Target: arm-none-eabi
@@ -46,8 +46,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\panghong\AppData\Local\Temp\ccc4FuVU.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\panghong\AppData\Local\Temp\cckeiEYT.s
 GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -68,18 +68,18 @@ GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (relea
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj C:\Users\panghong\AppData\Local\Temp\ccc4FuVU.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj C:\Users\panghong\AppData\Local\Temp\cckeiEYT.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
 COMPILER_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking C static library libcmTC_a6c01.a
-"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_a6c01.dir\cmake_clean_target.cmake
-"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a6c01.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_a6c01.a CMakeFiles/cmTC_a6c01.dir/CMakeCCompilerABI.c.obj
-D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_a6c01.a
-mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking C static library libcmTC_8e38f.a
+"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_8e38f.dir\cmake_clean_target.cmake
+"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e38f.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_8e38f.a CMakeFiles/cmTC_8e38f.dir/CMakeCCompilerABI.c.obj
+D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_8e38f.a
+mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -98,12 +98,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a6c01/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a6c01.dir\build.make CMakeFiles/cmTC_a6c01.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a6c01.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_8e38f/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8e38f.dir\build.make CMakeFiles/cmTC_8e38f.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8e38f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
@@ -111,8 +111,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\panghong\AppData\Local\Temp\ccc4FuVU.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\panghong\AppData\Local\Temp\cckeiEYT.s]
   ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -133,8 +133,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj C:\Users\panghong\AppData\Local\Temp\ccc4FuVU.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj C:\Users\panghong\AppData\Local\Temp\cckeiEYT.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/]
@@ -143,13 +143,13 @@ Parsed C implicit link information from above output:
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_a6c01.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_a6c01.a]
-  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_a6c01.dir\cmake_clean_target.cmake]
-  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a6c01.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_a6c01.a CMakeFiles/cmTC_a6c01.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_a6c01.a]
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_8e38f.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_8e38f.a]
+  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_8e38f.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e38f.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_8e38f.a CMakeFiles/cmTC_8e38f.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_8e38f.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -159,12 +159,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7faf2/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7faf2.dir\build.make CMakeFiles/cmTC_7faf2.dir/build
-mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7faf2.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_19c47/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_19c47.dir\build.make CMakeFiles/cmTC_19c47.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19c47.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe
 Target: arm-none-eabi
@@ -172,8 +172,8 @@ Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipelin
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\panghong\AppData\Local\Temp\ccPzhQNL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\panghong\AppData\Local\Temp\cc6Lgs6J.s
 GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
 	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -200,18 +200,18 @@ GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (rel
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\panghong\AppData\Local\Temp\ccPzhQNL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\panghong\AppData\Local\Temp\cc6Lgs6J.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
 COMPILER_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking CXX static library libcmTC_7faf2.a
-"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_7faf2.dir\cmake_clean_target.cmake
-"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7faf2.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_7faf2.a CMakeFiles/cmTC_7faf2.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_7faf2.a
-mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking CXX static library libcmTC_19c47.a
+"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_19c47.dir\cmake_clean_target.cmake
+"D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19c47.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_19c47.a CMakeFiles/cmTC_19c47.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_19c47.a
+mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -236,12 +236,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7faf2/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7faf2.dir\build.make CMakeFiles/cmTC_7faf2.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_7faf2.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe -f Makefile cmTC_19c47/fast && D:/Software/EmbededTools/Drivers/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_19c47.dir\build.make CMakeFiles/cmTC_19c47.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_19c47.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
@@ -249,8 +249,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\panghong\AppData\Local\Temp\ccPzhQNL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\software\embededtools\drivers\gcc-arm-none-eabi\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\panghong\AppData\Local\Temp\cc6Lgs6J.s]
   ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -277,8 +277,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\panghong\AppData\Local\Temp\ccPzhQNL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\panghong\AppData\Local\Temp\cc6Lgs6J.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/]
@@ -287,13 +287,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/software/embededtools/drivers/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_7faf2.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_7faf2.a]
-  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_7faf2.dir\cmake_clean_target.cmake]
-  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7faf2.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_7faf2.a CMakeFiles/cmTC_7faf2.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_7faf2.a]
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Software/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_19c47.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_19c47.a]
+  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_19c47.dir\cmake_clean_target.cmake]
+  ignore line: ["D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19c47.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_19c47.a CMakeFiles/cmTC_19c47.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Software\EmbededTools\Drivers\gcc-arm-none-eabi\bin\arm-none-eabi-ranlib.exe libcmTC_19c47.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/08.Github/VCMCtrl-AIO/VCMCtrl-AIO/1.Firmware/CLion/CyberVCM_AIO/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []

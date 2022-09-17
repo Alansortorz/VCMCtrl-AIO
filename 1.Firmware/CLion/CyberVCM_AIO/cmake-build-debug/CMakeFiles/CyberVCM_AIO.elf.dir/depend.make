@@ -210,8 +210,10 @@ CMakeFiles/CyberVCM_AIO.elf.dir/Control/SpeedPID.c.obj: \
 CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj: \
  ../Core/Inc/gpio.h \
  ../Core/Inc/main.h \
+ ../Core/Inc/param.h \
  ../Core/Inc/retarget.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
+ ../Core/Inc/tof200f_uart.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -252,6 +254,7 @@ CMakeFiles/CyberVCM_AIO.elf.dir/Control/TOF200F.c.obj: \
  ../Control/TOF200F.h
 CMakeFiles/CyberVCM_AIO.elf.dir/Control/VCMControl.c.obj: \
  ../Core/Inc/main.h \
+ ../Core/Inc/param.h \
  ../Core/Inc/retarget.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Core/Inc/tim.h \
@@ -375,10 +378,16 @@ CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/dma.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
  ../Core/Src/dma.c
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/freertos.c.obj: \
+ ../Control/Filter.h \
+ ../Control/TOF200F.h \
  ../Core/Inc/FreeRTOSConfig.h \
+ ../Core/Inc/gpio.h \
  ../Core/Inc/main.h \
+ ../Core/Inc/param.h \
  ../Core/Inc/retarget.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
+ ../Core/Inc/tof200f_uart.h \
+ ../Core/Inc/usart.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
@@ -508,15 +517,19 @@ CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/i2c.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
  ../Core/Src/i2c.c
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/main.c.obj: \
+ ../Control/Filter.h \
+ ../Control/TOF200F.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../Core/Inc/adc.h \
  ../Core/Inc/dma.h \
  ../Core/Inc/gpio.h \
  ../Core/Inc/i2c.h \
  ../Core/Inc/main.h \
+ ../Core/Inc/param.h \
  ../Core/Inc/retarget.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Core/Inc/tim.h \
+ ../Core/Inc/tof200f_uart.h \
  ../Core/Inc/usart.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
@@ -803,6 +816,47 @@ CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
  ../Core/Src/tim.c
+CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tof200f_uart.c.obj: \
+ ../Core/Inc/main.h \
+ ../Core/Inc/param.h \
+ ../Core/Inc/retarget.h \
+ ../Core/Inc/stm32f4xx_hal_conf.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f405xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ ../Drivers/CMSIS/Include/cmsis_armcc.h \
+ ../Drivers/CMSIS/Include/cmsis_armclang.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/core_cm4.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h \
+ ../Core/Src/tof200f_uart.c
 CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj: \
  ../Core/Inc/main.h \
  ../Core/Inc/retarget.h \

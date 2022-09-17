@@ -63,3 +63,5 @@ cybervcm_aio\main.o: ..\Control\SpeedPID.h
 cybervcm_aio\main.o: ../Core/Inc/tof200f_uart.h
 cybervcm_aio\main.o: ..\Display\oled.h
 cybervcm_aio\main.o: D:\Software\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+cybervcm_aio\main.o: ..\Sensor\imu.h
+cybervcm_aio\main.o: ..\Sensor\inv_mpu.h

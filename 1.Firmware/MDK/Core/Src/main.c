@@ -36,6 +36,8 @@
 #include "SpeedPID.h"
 #include "tof200f_uart.h"
 #include "oled.h"
+#include "imu.h"
+#include "inv_mpu.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,7 +103,7 @@ int main(void)
   MX_DMA_Init();
   MX_ADC1_Init();
   MX_I2C1_Init();
-  MX_I2C2_Init();
+  //MX_I2C2_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
   MX_USART1_UART_Init();
@@ -118,8 +120,8 @@ int main(void)
   OLED_Windows_Style1();
   
   //<2> LED Display
-  LED_Twinkle(0, 5);
-  LED_Twinkle(1, 5);
+  LED_Twinkle(0, 2);
+  LED_Twinkle(1, 2);
   
   //<3> USART Display
   /* =====>> */
@@ -128,8 +130,16 @@ int main(void)
   //pass
   
   //<4> CAN Display
+  //pass
   
+  /** IMU Init **/
+  i2c_GPIO_Config();
+  MPU6050_Init();
+  HAL_Delay(1000);
+  MPU6050ReadID();
   
+  /** TOF200F Senser Init **/
+  tof200f_init();
   
   /* USER CODE END 2 */
 

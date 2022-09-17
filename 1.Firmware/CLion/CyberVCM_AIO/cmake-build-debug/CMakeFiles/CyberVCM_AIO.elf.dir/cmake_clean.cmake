@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/syscalls.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/system_stm32f4xx.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tof200f_uart.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Display/oled.c.obj"
   "CMakeFiles/CyberVCM_AIO.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"

@@ -31,6 +31,10 @@
 #include "stdlib.h"
 #include "oled.h"
 #include "AM26C32.h"
+#include "imu.h"
+#include "param.h"
+#include "tof200f_uart.h"
+#include "TOF200F.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -50,6 +54,13 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+
+Sensor_Original_Data Sensor_data;
+Main_Data main_data;
+
+uint16_t distance;
+float Filter_distance;
+
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -119,16 +130,37 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
-  /* Infinite loop */
-  float temp = 0.0;
-  OLED_Windows_Style1();
+  float AccData[3];
+  float GyroData[3];
+  float g_xiamen;
+  /* Infinite loop */	
   for(;;)
   {
-	  //temp = VCMEncoderGetPosition();
-	  //printf("%f\n", temp);
-	  //HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-	  osDelay(100);
-	  //HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+	  /** grating sensor Test **/
+	  main_data.Actual_Position = VCMEncoderGetPosition();
+	  printf("Grating Sensor Position:%f\n", main_data.Actual_Position);
+	  
+	  /** IMU Test **/
+	  MPU6050ReadAcc(Sensor_data.Accdata);
+	  MPU6050ReadGyro(Sensor_data.Gyrodata);
+	  MPU6050_ReturnTemp(&(Sensor_data.Temp));
+	  g_xiamen = 9.7830;
+	  AccData[0] = g_xiamen*(float)(Sensor_data.Accdata[0])/16384;
+	  AccData[1] = g_xiamen*(float)(Sensor_data.Accdata[1])/16384;
+	  AccData[2] = g_xiamen*(float)(Sensor_data.Accdata[2])/16384;
+	  GyroData[0] = (float)(Sensor_data.Gyrodata[0]/131.0);
+	  GyroData[1] = (float)(Sensor_data.Gyrodata[1]/131.0);
+	  GyroData[2] = (float)(Sensor_data.Gyrodata[2]/131.0);
+	  printf("AccData:%d,%d,%d\n", Sensor_data.Accdata[0], Sensor_data.Accdata[1], Sensor_data.Accdata[2]);
+	  printf("GyroData:%f,%f,%f,%f,%f,%f\n", AccData[0], AccData[1], AccData[2], GyroData[0], GyroData[1], GyroData[2]);
+	  
+	  /** TOF Senser Test **/
+	  Sensor_data.TOF_Counts = tof200f_trans();
+	  Filter_distance = TOF_HEXConvertToEngineerValye();
+	  printf("TOF200F Data:%f\n", Filter_distance);
+	  
+	  HAL_Delay(50);
+	  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
   }
   /* USER CODE END StartDefaultTask */
 }

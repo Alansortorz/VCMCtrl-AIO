@@ -56,10 +56,10 @@ RM = "D:\Software\CLion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO
+CMAKE_SOURCE_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Firmware\CLion\CyberVCM_AIO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug
+CMAKE_BINARY_DIR = E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Firmware\CLion\CyberVCM_AIO\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Firmware\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Firmware\CLion\CyberVCM_AIO\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Software\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\08.Github\VCMCtrl-AIO\VCMCtrl-AIO\1.Firmware\CLion\CyberVCM_AIO\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -607,6 +607,30 @@ Core/Src/tim.s: Core/Src/tim.c.s
 Core/Src/tim.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tim.c.s
 .PHONY : Core/Src/tim.c.s
+
+Core/Src/tof200f_uart.obj: Core/Src/tof200f_uart.c.obj
+.PHONY : Core/Src/tof200f_uart.obj
+
+# target to build an object file
+Core/Src/tof200f_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tof200f_uart.c.obj
+.PHONY : Core/Src/tof200f_uart.c.obj
+
+Core/Src/tof200f_uart.i: Core/Src/tof200f_uart.c.i
+.PHONY : Core/Src/tof200f_uart.i
+
+# target to preprocess a source file
+Core/Src/tof200f_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tof200f_uart.c.i
+.PHONY : Core/Src/tof200f_uart.c.i
+
+Core/Src/tof200f_uart.s: Core/Src/tof200f_uart.c.s
+.PHONY : Core/Src/tof200f_uart.s
+
+# target to generate assembly for a file
+Core/Src/tof200f_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CyberVCM_AIO.elf.dir\build.make CMakeFiles/CyberVCM_AIO.elf.dir/Core/Src/tof200f_uart.c.s
+.PHONY : Core/Src/tof200f_uart.c.s
 
 Core/Src/usart.obj: Core/Src/usart.c.obj
 .PHONY : Core/Src/usart.obj
@@ -1477,6 +1501,9 @@ help:
 	@echo ... Core/Src/tim.obj
 	@echo ... Core/Src/tim.i
 	@echo ... Core/Src/tim.s
+	@echo ... Core/Src/tof200f_uart.obj
+	@echo ... Core/Src/tof200f_uart.i
+	@echo ... Core/Src/tof200f_uart.s
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s

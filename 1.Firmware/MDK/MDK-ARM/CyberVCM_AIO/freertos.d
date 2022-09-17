@@ -53,3 +53,11 @@ cybervcm_aio\freertos.o: D:\Software\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 cybervcm_aio\freertos.o: D:\Software\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 cybervcm_aio\freertos.o: ..\Display\oled.h
 cybervcm_aio\freertos.o: ..\Control\AM26C32.h
+cybervcm_aio\freertos.o: ..\Sensor\imu.h
+cybervcm_aio\freertos.o: ../Core/Inc/i2c.h
+cybervcm_aio\freertos.o: ../Core/Inc/param.h
+cybervcm_aio\freertos.o: D:\Software\MDK\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+cybervcm_aio\freertos.o: ../Core/Inc/tof200f_uart.h
+cybervcm_aio\freertos.o: ..\Control\TOF200F.h
+cybervcm_aio\freertos.o: ../Core/Inc/gpio.h
+cybervcm_aio\freertos.o: ..\Control\Filter.h

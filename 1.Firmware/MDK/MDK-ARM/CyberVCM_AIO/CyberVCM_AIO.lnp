@@ -51,6 +51,10 @@
 "cybervcm_aio\positionpid.o"
 "cybervcm_aio\speedpid.o"
 "cybervcm_aio\vcmcontrol.o"
+"cybervcm_aio\tof200f.o"
+"cybervcm_aio\imu.o"
+"cybervcm_aio\inv_mpu.o"
+"cybervcm_aio\inv_mpu_dmp_motion_driver.o"
 --library_type=microlib --strict --scatter "CyberVCM_AIO\CyberVCM_AIO.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

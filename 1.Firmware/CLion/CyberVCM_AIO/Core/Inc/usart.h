@@ -35,7 +35,7 @@ extern UART_HandleTypeDef huart1;
 extern UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN Private defines */
-
+void PrintFloat(float value);
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);

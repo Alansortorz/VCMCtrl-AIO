@@ -30,6 +30,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "retarget.h"
+#include "tof200f_uart.h"
+#include "TOF200F.h"
 
 /**
 # for use printf & scanf with float
@@ -136,6 +138,10 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   RetargetInit(&huart2);
+  tof200f_init();
+  printf("Hello World\n");
+
+  TOF_OriData_Filter();
   /* USER CODE END 2 */
 
   /* Init scheduler */

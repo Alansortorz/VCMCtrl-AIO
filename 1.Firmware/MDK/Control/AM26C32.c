@@ -47,7 +47,7 @@ int32_t VCMEncoderGetCnt(void)
         gVCMEncoder.cnt += ENCODERPLUSE;
     }
     gVCMEncoder.cnt = gVCMEncoder.cnt % ENCODERPLUSE;
-    //printf("CNT:%d\n", gVCMEncoder.cnt);
+    printf("CNT:%d\n", gVCMEncoder.cnt);
     return gVCMEncoder.cnt;
 }
 

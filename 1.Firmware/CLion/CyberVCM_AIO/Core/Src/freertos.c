@@ -26,6 +26,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usart.h"
+#include "tof200f_uart.h"
+#include "TOF200F.h"
 
 /* USER CODE END Includes */
 
@@ -46,6 +49,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
+Sensor_Original_Data Sensor_data;
+
 
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
@@ -114,15 +119,17 @@ void MX_FREERTOS_Init(void) {
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN StartDefaultTask */
-  int  temp = 20;
+  //float temp = 0.0;
+
   /* Infinite loop */
   for(;;)
   {
       HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-      HAL_Delay(200);
+      HAL_Delay(20);
       HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
-      HAL_Delay(200);
-      printf("%d\n", temp);
+      HAL_Delay(20);
+      //temp = TOF_HEXConvertToEngineerValye();
+      //printf("%f\n", temp);
   }
   /* USER CODE END StartDefaultTask */
 }
