@@ -138,7 +138,7 @@ void StartDefaultTask(void *argument)
   {
 	  /** grating sensor Test **/
 	  main_data.Actual_Position = VCMEncoderGetPosition();
-	  printf("Grating Sensor Position:%f\n", main_data.Actual_Position);
+	  printf("%f\n", main_data.Actual_Position);
 	  
 	  /** IMU Test **/
 	  MPU6050ReadAcc(Sensor_data.Accdata);
@@ -151,15 +151,15 @@ void StartDefaultTask(void *argument)
 	  GyroData[0] = (float)(Sensor_data.Gyrodata[0]/131.0);
 	  GyroData[1] = (float)(Sensor_data.Gyrodata[1]/131.0);
 	  GyroData[2] = (float)(Sensor_data.Gyrodata[2]/131.0);
-	  printf("AccData:%d,%d,%d\n", Sensor_data.Accdata[0], Sensor_data.Accdata[1], Sensor_data.Accdata[2]);
-	  printf("GyroData:%f,%f,%f,%f,%f,%f\n", AccData[0], AccData[1], AccData[2], GyroData[0], GyroData[1], GyroData[2]);
+	  //printf("AccData:%d,%d,%d\n", Sensor_data.Accdata[0], Sensor_data.Accdata[1], Sensor_data.Accdata[2]);
+	  //printf("GyroData:%f,%f,%f,%f,%f,%f\n", AccData[0], AccData[1], AccData[2], GyroData[0], GyroData[1], GyroData[2]);
 	  
 	  /** TOF Senser Test **/
-	  Sensor_data.TOF_Counts = tof200f_trans();
-	  Filter_distance = TOF_HEXConvertToEngineerValye();
-	  printf("TOF200F Data:%f\n", Filter_distance);
+	  //Sensor_data.TOF_Counts = tof200f_trans();
+	  //Filter_distance = TOF_HEXConvertToEngineerValye();
+	  //printf("%f\n", Filter_distance);
 	  
-	  HAL_Delay(50);
+	  HAL_Delay(500);
 	  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
   }
   /* USER CODE END StartDefaultTask */

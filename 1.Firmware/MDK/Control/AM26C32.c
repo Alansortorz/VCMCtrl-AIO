@@ -5,7 +5,6 @@
 
 
 /* 调试 */
-
 #include "stdio.h"
 #define CNTZERO 10000
 #define ENCODERPLUSE 8000;

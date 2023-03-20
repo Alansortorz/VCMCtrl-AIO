@@ -2,7 +2,6 @@
 #include "tim.h"
 #include "param.h"
 
-
 Main_Data main_data; 
 PWM_Control_Params pwm_control_params;
 

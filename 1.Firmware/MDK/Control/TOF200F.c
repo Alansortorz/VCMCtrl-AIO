@@ -11,12 +11,12 @@ extern Sensor_Original_Data Sensor_data;
 uint16_t TOF_OriData_Filter(void)
 {
 	unsigned short ori_tof_value = Sensor_data.TOF_Counts;
-	//printf("AAA:%d\n", ori_tof_value);
+	printf("AAA:%d\n", ori_tof_value);
 	static struct _1_ekf_filter ekf = {0.02, 0, 0, 0, 0.001, 0.543};
 	uint16_t ret_tof_distance = 0;
 	kalman_1(&ekf, (float)ori_tof_value);
 	ret_tof_distance = (uint16_t)ekf.out;
-	//printf("BBB:%d\n", ret_tof_distance);
+	printf("BBB:%d\n", ret_tof_distance);
 	return ret_tof_distance;
 }
 

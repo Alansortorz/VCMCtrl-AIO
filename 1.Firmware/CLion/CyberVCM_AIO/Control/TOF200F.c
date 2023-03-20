@@ -41,5 +41,3 @@ float TOF_HEXConvertToEngineerValye(void)
 	//printf("BBB:%0.3f\n", ret_distance);
 	return ret_distance;
 }
-
-

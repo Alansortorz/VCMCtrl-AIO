@@ -141,6 +141,10 @@ int main(void)
   /** TOF200F Senser Init **/
   tof200f_init();
   
+  /** Init end **/
+  //HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_RESET);
+  printf("Everything is OK!\n");
+  
   /* USER CODE END 2 */
 
   /* Init scheduler */
