@@ -2,7 +2,6 @@
 #include <Param.h>
 #include "main.h"
 
-
 //uart1
 #define UART1_BUF_SZ 64
 unsigned char uart1_rec_num=0;
@@ -114,7 +113,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 
-
 void tof200f_init(void)
 {
   // UART1 start
@@ -122,8 +120,6 @@ void tof200f_init(void)
   uart1_rec_tick = 0;
   HAL_UART_Receive_IT(&huart1,sz_uart1_buf,1);	
 }
-
-
 
 unsigned short tof200f_trans(void)
 {

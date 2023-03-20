@@ -6,9 +6,7 @@ Main_Data main_data;
 PWM_Control_Params pwm_control_params;
 
 /** 
- * @brief vcm position init 
- * 
- *
+ * @brief vcm position init
  */
 void UP_Move(uint8_t duty)
 {

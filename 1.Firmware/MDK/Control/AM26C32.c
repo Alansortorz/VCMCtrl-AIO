@@ -28,6 +28,7 @@ VCMEncoder gVCMEncoder = {
   */
 void VCMEncoderInit(void)
 {
+	//编码器Encode功能启动
     HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_ALL);
     __HAL_TIM_SET_COUNTER(&htim2, CNTZERO);
     gVCMEncoder.cnt = 0;
